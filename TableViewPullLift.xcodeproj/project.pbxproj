@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB79816713C4036A00905867 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB79816613C4036A00905867 /* UIKit.framework */; };
+		CB79816913C4036A00905867 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB79816813C4036A00905867 /* Foundation.framework */; };
+		CB79816B13C4036A00905867 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB79816A13C4036A00905867 /* CoreGraphics.framework */; };
+		CB79817113C4036A00905867 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB79816F13C4036A00905867 /* InfoPlist.strings */; };
+		CB79817413C4036A00905867 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB79817313C4036A00905867 /* main.m */; };
+		CB79817713C4036A00905867 /* TableViewPullLiftAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB79817613C4036A00905867 /* TableViewPullLiftAppDelegate.m */; };
+		CB79817A13C4036A00905867 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB79817813C4036A00905867 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB79816213C4036A00905867 /* TableViewPullLift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewPullLift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB79816613C4036A00905867 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB79816813C4036A00905867 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB79816A13C4036A00905867 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB79816E13C4036A00905867 /* TableViewPullLift-Info.plist */ = {isa = PBXFileReference; path = "TableViewPullLift-Info.plist"; sourceTree = "<group>"; };
+		CB79817013C4036A00905867 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB79817213C4036A00905867 /* TableViewPullLift-Prefix.pch */ = {isa = PBXFileReference; path = "TableViewPullLift-Prefix.pch"; sourceTree = "<group>"; };
+		CB79817313C4036A00905867 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB79817513C4036A00905867 /* TableViewPullLiftAppDelegate.h */ = {isa = PBXFileReference; path = TableViewPullLiftAppDelegate.h; sourceTree = "<group>"; };
+		CB79817613C4036A00905867 /* TableViewPullLiftAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewPullLiftAppDelegate.m; sourceTree = "<group>"; };
+		CB79817913C4036A00905867 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB79815F13C4036A00905867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB79816713C4036A00905867 /* UIKit.framework in Frameworks */,
+				CB79816913C4036A00905867 /* Foundation.framework in Frameworks */,
+				CB79816B13C4036A00905867 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB79815713C4036A00905867 = {
+			isa = PBXGroup;
+			children = (
+				CB79816C13C4036A00905867 /* TableViewPullLift */,
+				CB79816513C4036A00905867 /* Frameworks */,
+				CB79816313C4036A00905867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB79816313C4036A00905867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB79816213C4036A00905867 /* TableViewPullLift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB79816513C4036A00905867 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB79816613C4036A00905867 /* UIKit.framework */,
+				CB79816813C4036A00905867 /* Foundation.framework */,
+				CB79816A13C4036A00905867 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB79816C13C4036A00905867 /* TableViewPullLift */ = {
+			isa = PBXGroup;
+			children = (
+				CB79817513C4036A00905867 /* TableViewPullLiftAppDelegate.h */,
+				CB79817613C4036A00905867 /* TableViewPullLiftAppDelegate.m */,
+				CB79817813C4036A00905867 /* MainWindow.xib */,
+				CB79816D13C4036A00905867 /* Supporting Files */,
+			);
+			path = TableViewPullLift;
+			sourceTree = "<group>";
+		};
+		CB79816D13C4036A00905867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB79816E13C4036A00905867 /* TableViewPullLift-Info.plist */,
+				CB79816F13C4036A00905867 /* InfoPlist.strings */,
+				CB79817213C4036A00905867 /* TableViewPullLift-Prefix.pch */,
+				CB79817313C4036A00905867 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB79816113C4036A00905867 /* TableViewPullLift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB79817D13C4036A00905867 /* Build configuration list for PBXNativeTarget "TableViewPullLift" */;
+			buildPhases = (
+				CB79815E13C4036A00905867 /* Sources */,
+				CB79815F13C4036A00905867 /* Frameworks */,
+				CB79816013C4036A00905867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewPullLift;
+			productName = TableViewPullLift;
+			productReference = CB79816213C4036A00905867 /* TableViewPullLift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB79815913C4036A00905867 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CB79815C13C4036A00905867 /* Build configuration list for PBXProject "TableViewPullLift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB79815713C4036A00905867;
+			productRefGroup = CB79816313C4036A00905867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB79816113C4036A00905867 /* TableViewPullLift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB79816013C4036A00905867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB79817113C4036A00905867 /* InfoPlist.strings in Resources */,
+				CB79817A13C4036A00905867 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB79815E13C4036A00905867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB79817413C4036A00905867 /* main.m in Sources */,
+				CB79817713C4036A00905867 /* TableViewPullLiftAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB79816F13C4036A00905867 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB79817013C4036A00905867 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB79817813C4036A00905867 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB79817913C4036A00905867 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB79817B13C4036A00905867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB79817C13C4036A00905867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CB79817E13C4036A00905867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewPullLift/TableViewPullLift-Prefix.pch";
+				INFOPLIST_FILE = "TableViewPullLift/TableViewPullLift-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB79817F13C4036A00905867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewPullLift/TableViewPullLift-Prefix.pch";
+				INFOPLIST_FILE = "TableViewPullLift/TableViewPullLift-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB79815C13C4036A00905867 /* Build configuration list for PBXProject "TableViewPullLift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB79817B13C4036A00905867 /* Debug */,
+				CB79817C13C4036A00905867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB79817D13C4036A00905867 /* Build configuration list for PBXNativeTarget "TableViewPullLift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB79817E13C4036A00905867 /* Debug */,
+				CB79817F13C4036A00905867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB79815913C4036A00905867 /* Project object */;
+}
