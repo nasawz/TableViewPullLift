@@ -16,6 +16,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window.rootViewController = [[RootViewController alloc] init];
     [self.window makeKeyAndVisible];
     return YES;
 }
